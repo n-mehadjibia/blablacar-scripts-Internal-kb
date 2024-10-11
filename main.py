@@ -1,10 +1,11 @@
 # IMPORTS ==========================================================
 import pandas as pd
 import os
+import re
 
 # CONSTS ==========================================================
-PATH_TO_INTERNAL_KB = '/Users/macbook/Desktop/Import KB BBC/scripts Internal kb/Inputs/internalKb.csv'
-INTERNAL_KB_CSV_SEP = ';'
+PATH_TO_INTERNAL_KB = '/Users/macbook/Desktop/Import KB BBC/scripts Internal kb/Inputs/merge_result.csv'
+INTERNAL_KB_CSV_SEP = ','
 PATH_TO_DATA_CATEGORIES = 'Inputs/internal_data_categories.csv'
 DATA_CATEGORIES_CSV_SEP = ','
 
@@ -16,6 +17,8 @@ internal_kb_df = pd.read_csv(PATH_TO_INTERNAL_KB, sep=INTERNAL_KB_CSV_SEP)
 data_categories_df = pd.read_csv(PATH_TO_DATA_CATEGORIES, sep=DATA_CATEGORIES_CSV_SEP)
 
 internal_kb_df = internal_kb_df.fillna('')
+#internal_ru_kb_df = internal_kb_df[internal_kb_df["Language"] == "ru"]
+internal_kb_df = internal_kb_df[internal_kb_df["Language"] != "ru"]
 data_categories_df = data_categories_df.fillna('')
 
 # FUNCTIONS ==========================================================
@@ -42,7 +45,15 @@ def format_language(language):
     return language
 
 def map_data_category(category, section):
-    result = { 'is_category_changed': False, 'category_name': '' }
+    def remove_extra_spaces(text):
+        # Use a regular expression to replace multiple spaces with a single space
+        # Only applies to spaces between words, not around special characters
+        return re.sub(r'(?<!\S) +|\s+(?!\S)', ' ', text).strip()
+    
+    category = remove_extra_spaces(category)
+    section = remove_extra_spaces(section)
+
+    result = { 'is_category_changed': False, 'category_name': '', 'mapping': {} }
 
     data_category_mapping = data_categories_df[
         (data_categories_df['label1'].str.lower() == category.lower()) &
@@ -65,6 +76,7 @@ def map_data_category(category, section):
 
     if not data_category_mapping.empty:
         mapping = data_category_mapping.iloc[0]
+        result['mapping'] = mapping
         if mapping['name3']:
             result['category_name'] = mapping['name3']
         elif mapping['name2']:
@@ -77,8 +89,8 @@ def map_data_category(category, section):
 # ===============================================================================
 # ============================== PROCESSING =====================================
 # ===============================================================================
-columns_internal_kb = ['id','IsMasterLanguage', 'Summary', 'Title', 'Language', 'Answer__c', 'RECORDTYPEID', 'category', 'section', 'attachment_url', 'attachment_url_nameless', 'attachment_name', 'attachment_inline']
-columns_article = ['IsMasterLanguage', 'Summary', 'Title', 'Language', 'Answer__c', 'RecordTypeId', 'datacategorygroup.Internal', 'ZendeskId__c', 'ZendeskAttachmentUrlList__c', 'ZendeskAttachmentNameList__c', 'ZendeskIsAttachmentInlineList__c']
+columns_internal_kb = ['id','IsMasterLanguage', 'Summary', 'Title', 'Language', 'Answer__c', 'RECORDTYPEID', 'category', 'section', 'attachment_url', 'attachment_url_nameless', 'attachment_name', 'attachment_inline' ]
+columns_article = ['IsMasterLanguage', 'Summary', 'Title', 'Language', 'Answer__c', 'RecordTypeId', 'datacategorygroup.Internal', 'ZendeskId__c', 'ZendeskAttachmentUrlList__c', 'ZendeskAttachmentNameList__c', 'ZendeskIsAttachmentInlineList__c', "Product__c", "Category__c", "SubCategory1__c"]
 changed_internal_kb = pd.DataFrame(columns = columns_internal_kb)
 articles_df = pd.DataFrame(columns = columns_article)
 
@@ -94,14 +106,20 @@ for index, row in internal_kb_df.iterrows():
     #article_row['ZendeskAttachmentUrlList__c'] =  row['attachment_url']
     article_row['ZendeskAttachmentNameList__c'] =  row['attachment_name']
     article_row['ZendeskIsAttachmentInlineList__c'] =  row['attachment_inline']
-    if  row['IsMasterLanguage']:
-        data_category_mapping_result = map_data_category(
+
+    data_category_mapping_result = map_data_category(
             row['category'],
             row['section']
         )
+    if  row['IsMasterLanguage']:
         article_row['datacategorygroup.Internal'] = data_category_mapping_result['category_name']
         if data_category_mapping_result['is_category_changed']:
             changed_internal_kb.loc[len(changed_internal_kb)] = row
+
+    if data_category_mapping_result['mapping'] is not None and len(data_category_mapping_result['mapping']) > 0:
+        article_row['Product__c'] = data_category_mapping_result['mapping']['label1']
+        article_row['Category__c'] = data_category_mapping_result['mapping']['label2']
+        article_row['SubCategory1__c'] = data_category_mapping_result['mapping']['label3']
 
     articles_df.loc[len(articles_df)] = article_row
 
@@ -109,4 +127,6 @@ for index, row in internal_kb_df.iterrows():
 articles_df = articles_df.sort_values(by=['ZendeskId__c', 'IsMasterLanguage'], ascending=[True, False])
 
 articles_df.to_csv(f'Outputs/import.csv',index=False)
+#internal_ru_kb_df.to_csv(f'Outputs/articles_ru.csv',index=False)
+
 changed_internal_kb.to_csv(f'Outputs/changed_internal_kb.csv',index=False)

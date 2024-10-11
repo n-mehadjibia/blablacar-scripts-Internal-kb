@@ -1,0 +1,175 @@
+label1,name1,label2,name2,label3,name3
+BlaBlaCar Bus,BlaBlaCarBus,,,,
+BlaBlaCar Bus,BlaBlaCarBus,Latest product updates,BBCB_LatestProductUpdates,,
+BlaBlaCar Bus,BlaBlaCarBus,Recently updated articles,BBCB_RecentlyUpdatedArticles,,
+BlaBlaCar Bus,BlaBlaCarBus,Operational info & processes,BBCB_OperationalInfoProcesses,,
+BlaBlaCar Bus,BlaBlaCarBus,Tools,BBCB_Tools,,
+BlaBlaCar Bus,BlaBlaCarBus,Booking,BBCB_Booking,,
+BlaBlaCar Bus,BlaBlaCarBus,Technical issues,BBCB_TechnicalIssues,,
+BlaBlaCar Bus,BlaBlaCarBus,"Payment, Vouchers & Refunds",BBCB_PaymentVouchersRefunds,,
+BlaBlaCar Bus,BlaBlaCarBus,"Payment, Vouchers & Refunds",BBCB_PaymentVouchersRefunds,Payment,BBCB_PVR_Payment
+BlaBlaCar Bus,BlaBlaCarBus,"Payment, Vouchers & Refunds",BBCB_PaymentVouchersRefunds,Vouchers,BBCB_PVR_Vouchers
+BlaBlaCar Bus,BlaBlaCarBus,"Payment, Vouchers & Refunds",BBCB_PaymentVouchersRefunds,Refunds,BBCB_PVR_Refunds
+BlaBlaCar Bus,BlaBlaCarBus,Trust & Safety,BBCB_TrustSafety,,
+BlaBlaCar Bus,BlaBlaCarBus,Reduced mobility,BBCB_ReducedMobility,,
+BlaBlaCar Bus,BlaBlaCarBus,Feedback,BBCB_Feedback,,
+BlaBlaCar Bus,BlaBlaCarBus,Compensation Requests,BBCB_CompensationRequests,,
+BlaBlaCar Bus,BlaBlaCarBus,Luggage,BBCB_Luggage,,
+BlaBlaCar Bus,BlaBlaCarBus,Press & partnerships,BBCB_PressPartnerships,,
+BlaBlaCar Bus,BlaBlaCarBus,Insurance,BBCB_Insurance,,
+BlaBlaCar Bus,BlaBlaCarBus,Virtual Interlining,BBCB_VirtualInterlining,,
+BlaBlaCar Bus,BlaBlaCarBus,Booking conflicts,BBCB_BookingConflicts,,
+BlaBlaCar Bus,BlaBlaCarBus,Call center specifics,BBCB_CallCenterSpecifics,,
+BlaBlaCar Bus,BlaBlaCarBus,Call center specifics,BBCB_CallCenterSpecifics,Calls & tickets,BBCB_CCS_CallsTickets
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,,
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Basics and updates,OBI_BasicsAndUpdates
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Contacts,OBI_Contacts
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Processes,OBI_Processes
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Pax communication,OBI_PaxCommunication
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,RTTS: Alfred/Samsara,OBI_RTTSAlfredSamsara
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,S3 Backoffice,OBI_S3Backoffice
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Channel crossing,OBI_ChannelCrossing
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,Incident reports / Zendesk,OBI_IncidentReportsZendesk
+BlaBlaCar Bus,BlaBlaCarBus,Traffic Control specifics,BBCB_TrafficControlSpecifics,S3 Portal,OBI_S3Portal
+BlaBlaCar,BlaBlaCar,,,,
+BlaBlaCar,BlaBlaCar,Latest product updates,BBC_LatestProductUpdates,,
+BlaBlaCar,BlaBlaCar,Recently updated articles,BBC_RecentlyUpdatedArticles,,
+BlaBlaCar,BlaBlaCar,General,BBC_General,,
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,,
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,Sign-up,BBC_G_SignUp
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,Log in,BBC_G_LogIn
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,Profile & ID check,BBC_G_ProfileIDCheck
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,Emails/Notifications/SMS,BBC_G_EmailsNotificationsSMS
+BlaBlaCar,BlaBlaCar,Profile & Account,BBC_ProfileAccount,Super Driver Program,BBC_G_SuperDriverProgram
+BlaBlaCar,BlaBlaCar,Moderation,BBC_Moderation,,
+BlaBlaCar,BlaBlaCar,Moderation,BBC_Moderation,Moderation Guidelines,BBC_M_ModerationGuidelines
+BlaBlaCar,BlaBlaCar,Moderation,BBC_Moderation,Ratings,BBC_M_Ratings
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,,
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,Messages,BBC_OMR_Messages
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,Publication,BBC_OMR_Publication
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,Pricing,BBC_OMR_Pricing
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,Boost Smart Stops,BBC_OMR_BoostSmartStops
+BlaBlaCar,BlaBlaCar,Offering and Managing my ride,BBC_OfferingAndManagingMyRide,Zen - Door-to-door,BBC_OMR_ZenDoorToDoor
+BlaBlaCar,BlaBlaCar,Making a booking,BBC_MakingABooking,,
+BlaBlaCar,BlaBlaCar,Making a booking,BBC_MakingABooking,Search,BBC_Search
+BlaBlaCar,BlaBlaCar,Making a booking,BBC_MakingABooking,How booking works,BBC_HowBookingWorks
+BlaBlaCar,BlaBlaCar,Making a booking,BBC_MakingABooking,All & cross-border rides,BBC_M_AllCrossBorderRides
+BlaBlaCar,BlaBlaCar,Cancelling or making a claim,BBC_CancellingOrMakingAClaim,,
+BlaBlaCar,BlaBlaCar,Cancelling or making a claim,BBC_CancellingOrMakingAClaim,Disagreements,BBC_CMC_Disagreements
+BlaBlaCar,BlaBlaCar,Cancelling or making a claim,BBC_CancellingOrMakingAClaim,Goodwill gestures,BBC_CMC_GoodwillGestures
+BlaBlaCar,BlaBlaCar,"Money, Payments & Refunds",BBC_MoneyPaymentsRefunds,,
+BlaBlaCar,BlaBlaCar,"Money, Payments & Refunds",BBC_MoneyPaymentsRefunds,PSGRs: onboard and online countries,BBC_MPR_PSGRsOnboardAndOnlineCountries
+BlaBlaCar,BlaBlaCar,"Money, Payments & Refunds",BBC_MoneyPaymentsRefunds,DRVRs: online countries (Pay-out),BBC_MPR_DRVRsOnlineCountriesPayOut
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,,
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Safety,BBC_TS_Safety
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,TRUST & SAFETY MODERATION GUIDELINES,BBC_TS_TRUSTSAFETYMODERATIONGUIDELINES
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Tools,BBC_TS_Tools
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Incident / PR risk,BBC_TS_IncidentPRRisk
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Behavior Forms,BBC_TS_BehaviorForms
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Police Requests,BBC_TS_PoliceRequests
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Call to Care,BBC_TS_CallToCare
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Business,BBC_TS_Business
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Fraud,BBC_TS_Fraud
+BlaBlaCar,BlaBlaCar,Trust & Safety,BBC_TrustSafety,Flags,BBC_TS_Flags
+BlaBlaCar,BlaBlaCar,Technical,BBC_Technical,,
+BlaBlaCar,BlaBlaCar,Technical,BBC_Technical,Bugs / Troubleshooting,BBC_T_BugsTroubleshooting
+BlaBlaCar,BlaBlaCar,Technical,BBC_Technical,Apps,BBC_T_Apps
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,,
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Campaigns,BBC_ET_Campaigns
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Social Media & Store moderation,BBC_ET_SocialMediaStoreModeration
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Data compliance (GDPR),BBC_ET_DataComplianceGDPR
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,CRT Content,BBC_ET_CRTContent
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Energy Savings Certificate (FR Only),BBC_ET_EnergySavingsCertificateFROnly
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,"Insurance (L2 AXA, L3 L'olivier)",BBC_ET_InsuranceL2AXAL3LOlivier
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,BlaBlaHelp,BBC_ET_BlaBlaHelp
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Quality Assurance,BBC_ET_QualityAssurance
+BlaBlaCar,BlaBlaCar,Expert topics,BBC_ExpertTopics,Video Training,BBC_ET_VideoTraining
+BlaBlaCar,BlaBlaCar,Product updates & tests,H_ProductUpdatesTests,,
+BlaBlaCar,BlaBlaCar,Our Team,H_OurTeam,,
+Pro Marketplace Bus,ProMarketplaceBus,,,,
+Pro Marketplace Bus,ProMarketplaceBus,Latest product updates,PMB_LatestProductUpdates,,
+Pro Marketplace Bus,ProMarketplaceBus,Recently updated articles,PMB_RecentlyUpdatedArticles,,
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,,
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,Introduction,PMB_GIT_Introduction
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,GillBus,PMB_GIT_GillBus
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,Zendesk bus custom apps,PMB_GIT_ZendeskBusCustomApps
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,Drive,PMB_GIT_Drive
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,Payment tools,PMB_GIT_PaymentTools
+Pro Marketplace Bus,ProMarketplaceBus,General info & tools,PMB_GeneralInfoTools,PMP related info in BackOffice,PMB_GIT_PMPRelatedInfoInBackOffice
+Pro Marketplace Bus,ProMarketplaceBus,General questions,PMB_GeneralQuestions,,
+Pro Marketplace Bus,ProMarketplaceBus,General questions,PMB_GeneralQuestions,Routes and buses,PMB_GQ_RoutesAndBuses
+Pro Marketplace Bus,ProMarketplaceBus,General questions,PMB_GeneralQuestions,"Luggage, parcels and animals",PMB_GQ_LuggageParcelsAndAnimals
+Pro Marketplace Bus,ProMarketplaceBus,General questions,PMB_GeneralQuestions,Boarding a bus,PMB_GQ_BoardingBus
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,,
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,Search and booking flow,PMB_BP_SearchAndBookingFlow
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,Payment flow,PMB_BP_PaymentFlow
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,Travel documents and confirmation,PMB_BP_TravelDocumentsAndConfirmation
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,Insurance,PMB_BP_Insurance
+Pro Marketplace Bus,ProMarketplaceBus,Booking and payment,PMB_BookingAndPayment,Promotions and discounts,PMB_BP_PromotionsAndDiscounts
+Pro Marketplace Bus,ProMarketplaceBus,Cancelling a booking,PMB_CancellingABooking,,
+Pro Marketplace Bus,ProMarketplaceBus,Cancelling a booking,PMB_CancellingABooking,Cancellation flow,PMB_CB_CancellationFlow
+Pro Marketplace Bus,ProMarketplaceBus,Cancelling a booking,PMB_CancellingABooking,Cancellation and refund issues,PMB_CB_CancellationAndRefundIssues
+Pro Marketplace Bus,ProMarketplaceBus,Processing refund applications,PMB_ProcessingRefundApplications,,
+Pro Marketplace Bus,ProMarketplaceBus,Processing refund applications,PMB_ProcessingRefundApplications,Refund applications in Zendesk,PMB_PRA_RefundApplicationsInZendesk
+Pro Marketplace Bus,ProMarketplaceBus,Processing refund applications,PMB_ProcessingRefundApplications,Refund applications in Drive,PMB_PRA_RefundApplicationsInDrive
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,,
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,General information on escalation,PMB_EP_GeneralInformationOnEscalation
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,Internal escalation,PMB_EP_InternalEscalation
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,Escalation to other teams,PMB_EP_EscalationToOtherTeams
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,Escalation to carriers,PMB_EP_EscalationToCarriers
+Pro Marketplace Bus,ProMarketplaceBus,Escalation processes,PMB_EscalationProcesses,Call center escalation,PMB_EP_CallCenterEscalation
+Pro Marketplace Bus,ProMarketplaceBus,Technical errors & other issues,PMB_TechnicalErrorsOtherIssues,,
+Pro Marketplace Bus,ProMarketplaceBus,Technical errors & other issues,PMB_TechnicalErrorsOtherIssues,Common technical issues in Zendesk,PMB_TEOI_CommonTechnicalIssuesInZendesk
+Pro Marketplace Bus,ProMarketplaceBus,Technical errors & other issues,PMB_TechnicalErrorsOtherIssues,Common technical issues in Drive,PMB_TEOI_CommonTechnicalIssuesInDrive
+Pro Marketplace Bus,ProMarketplaceBus,Technical errors & other issues,PMB_TechnicalErrorsOtherIssues,Callbacks (UA and PL only),PMB_TEOI_CallbacksUAandPLonly
+Pro Marketplace Bus,ProMarketplaceBus,Technical errors & other issues,PMB_TechnicalErrorsOtherIssues,Notifying passengers,PMB_TEOI_NotifyingPassengers
+Pro Marketplace Bus,ProMarketplaceBus,Trust & Safety,PMB_TrustSafetyMP,,
+Pro Marketplace Bus,ProMarketplaceBus,Trust & Safety,PMB_TrustSafetyMP,Fraud,PMB_TS_Fraud
+Pro Marketplace Bus,ProMarketplaceBus,Trust & Safety,PMB_TrustSafetyMP,Incident,PMB_TS_Incident
+Pro Marketplace Bus,ProMarketplaceBus,Distribusion WE,PMB_DistribusionWE,,
+Pro Marketplace Bus,ProMarketplaceBus,Expert Topics,PMB_ExpertTopics,,
+BlaBlaCar Daily,BlaBlaCarDaily,,,,
+BlaBlaCar Daily,BlaBlaCarDaily,Latest product updates,BBCD_LatestProductUpdates,,
+BlaBlaCar Daily,BlaBlaCarDaily,Recently updated articles,BBCD_RecentlyUpdatedArticles,,
+BlaBlaCar Daily,BlaBlaCarDaily,Klaxit x Daily Migration,BBCD_KlaxitXDailyMigration,,
+BlaBlaCar Daily,BlaBlaCarDaily,General,BBCD_GeneralDaily,,
+BlaBlaCar Daily,BlaBlaCarDaily,Customer Profile,BBCD_CustomerProfile,,
+BlaBlaCar Daily,BlaBlaCarDaily,Trips Validation,BBCD_TripsValidation,,
+BlaBlaCar Daily,BlaBlaCarDaily,Booking & Trip,BBCD_BookingTrip,,
+BlaBlaCar Daily,BlaBlaCarDaily,Payments,BBCD_Payments,,
+BlaBlaCar Daily,BlaBlaCarDaily,Bug Reporting Process,BBCD_BugReportingProcess,,
+BlaBlaCar Daily,BlaBlaCarDaily,Fraud,BBCD_Fraud,,
+BlaBlaCar Daily,BlaBlaCarDaily,Macros & Helcenter updating,BBCD_MacrosHelcenterUpdating,,
+BlaBlaCar Daily,BlaBlaCarDaily,Social networks,BBCD_SocialNetworks,,
+BlaBlaCar Daily,BlaBlaCarDaily,Carpooling Bonus,BBCD_CarpoolingBonus,,
+BlaBlaCar Daily,BlaBlaCarDaily,Trust & Safety,BBCD_TrustSafetyDaily,,
+BlaBlaCar Daily,BlaBlaCarDaily,Call Center Specifics,BBCD_CallCenterSpecificsDaily,,
+BlaBlaCar Daily,BlaBlaCarDaily,B2B,BBCD_B2B,,
+BlaBlaCar Train,BlaBlaCarTrain,,,,
+BlaBlaCar Train,BlaBlaCarTrain,Latest product updates,BBCT_LatestProductUpdates,,
+BlaBlaCar Train,BlaBlaCarTrain,Recently updated articles,BBCT_RecentlyUpdatedArticles,,
+BlaBlaCar Train,BlaBlaCarTrain,General information,BBCT_GeneralInformation,,
+BlaBlaCar Train,BlaBlaCarTrain,Tools,BBCT_Tools,,
+BlaBlaCar Train,BlaBlaCarTrain,Booking & aftersales,BBCT_BookingAftersales,,
+BlaBlaCar Train,BlaBlaCarTrain,Iryo specifics,BBCT_IryoSpecifics,,
+BlaBlaCar Train,BlaBlaCarTrain,Technical issues,BBCT_TechnicalIssues,,
+BlaBlaCar Train,BlaBlaCarTrain,Trust & Safety,BBCT_TrustSafety,,
+Home,Home,,,,
+Home,Home,Product updates & tests,H_ProductUpdatesTests,,
+Home,Home,Ongoing bugs,H_OngoingBugs,,
+Home,Home,Who to contact,h_WhoToContact,,
+Home,Home,Glossary,H_Glossary,,
+Home,Home,Slack quick guide,H_SlackQuickGuide,,
+Home,Home,BlaBlaShare,H_BlaBlaShare,,
+Home,Home,Our Team,H_OurTeam,,
+Home,Home,Contact us,H_ContactUs,,
+OB Incident,OBIncident,,,,
+OB Incident,OBIncident,Basics and updates,OBI_BasicsAndUpdates,,
+OB Incident,OBIncident,Contacts,OBI_Contacts,,
+OB Incident,OBIncident,Processes,OBI_Processes,,
+OB Incident,OBIncident,Pax communication,OBI_PaxCommunication,,
+OB Incident,OBIncident,RTTS: Alfred/Samsara,OBI_RTTSAlfredSamsara,,
+OB Incident,OBIncident,S3 Backoffice,OBI_S3Backoffice,,
+OB Incident,OBIncident,Channel crossing,OBI_ChannelCrossing,,
+OB Incident,OBIncident,Incident reports / Zendesk,OBI_IncidentReportsZendesk,,
+OB Incident,OBIncident,S3 Portal,OBI_S3Portal,,

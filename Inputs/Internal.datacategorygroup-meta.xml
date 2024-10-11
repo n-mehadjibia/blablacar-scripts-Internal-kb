@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup>
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Latest product updates</label>
+                <name>BBCB_LatestProductUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recently updated articles</label>
+                <name>BBCB_RecentlyUpdatedArticles</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Operational info &amp; processes</label>
+                <name>BBCB_OperationalInfoProcesses</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tools</label>
+                <name>BBCB_Tools</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Booking</label>
+                <name>BBCB_Booking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Technical issues</label>
+                <name>BBCB_TechnicalIssues</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Payment</label>
+                    <name>BBCB_PVR_Payment</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Vouchers</label>
+                    <name>BBCB_PVR_Vouchers</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Refunds</label>
+                    <name>BBCB_PVR_Refunds</name>
+                </dataCategory>
+                <label>Payment, Vouchers &amp; Refunds</label>
+                <name>BBCB_PaymentVouchersRefunds</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Trust &amp; Safety</label>
+                <name>BBCB_TrustSafety</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reduced mobility</label>
+                <name>BBCB_ReducedMobility</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Feedback</label>
+                <name>BBCB_Feedback</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Compensation Requests</label>
+                <name>BBCB_CompensationRequests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Luggage</label>
+                <name>BBCB_Luggage</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Press &amp; partnerships</label>
+                <name>BBCB_PressPartnerships</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Insurance</label>
+                <name>BBCB_Insurance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Virtual Interlining</label>
+                <name>BBCB_VirtualInterlining</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Booking conflicts</label>
+                <name>BBCB_BookingConflicts</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Calls &amp; tickets</label>
+                    <name>BBCB_CCS_CallsTickets</name>
+                </dataCategory>
+                <label>Call center specifics</label>
+                <name>BBCB_CallCenterSpecifics</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Basics and updates</label>
+                    <name>OBI_BasicsAndUpdates</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>OBI_Contacts</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Processes</label>
+                    <name>OBI_Processes</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Pax communication</label>
+                    <name>OBI_PaxCommunication</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>RTTS: Alfred/Samsara</label>
+                    <name>OBI_RTTSAlfredSamsara</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>S3 Backoffice</label>
+                    <name>OBI_S3Backoffice</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Channel crossing</label>
+                    <name>OBI_ChannelCrossing</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Incident reports / Zendesk</label>
+                    <name>OBI_IncidentReportsZendesk</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>S3 Portal</label>
+                    <name>OBI_S3Portal</name>
+                </dataCategory>
+                <label>Traffic Control specifics</label>
+                <name>BBCB_TrafficControlSpecifics</name>
+            </dataCategory>
+            <label>BlaBlaCar Bus</label>
+            <name>BlaBlaCarBus</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Latest product updates</label>
+                <name>BBC_LatestProductUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recently updated articles</label>
+                <name>BBC_RecentlyUpdatedArticles</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General</label>
+                <name>BBC_General</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Sign-up</label>
+                    <name>BBC_G_SignUp</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Log in</label>
+                    <name>BBC_G_LogIn</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Profile &amp; ID check</label>
+                    <name>BBC_G_ProfileIDCheck</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Emails/Notifications/SMS</label>
+                    <name>BBC_G_EmailsNotificationsSMS</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Super Driver Program</label>
+                    <name>BBC_G_SuperDriverProgram</name>
+                </dataCategory>
+                <label>Profile &amp; Account</label>
+                <name>BBC_ProfileAccount</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Moderation Guidelines</label>
+                    <name>BBC_M_ModerationGuidelines</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Ratings</label>
+                    <name>BBC_M_Ratings</name>
+                </dataCategory>
+                <label>Moderation</label>
+                <name>BBC_Moderation</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Messages</label>
+                    <name>BBC_OMR_Messages</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Publication</label>
+                    <name>BBC_OMR_Publication</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Pricing</label>
+                    <name>BBC_OMR_Pricing</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Boost Smart Stops</label>
+                    <name>BBC_OMR_BoostSmartStops</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Zen - Door-to-door</label>
+                    <name>BBC_OMR_ZenDoorToDoor</name>
+                </dataCategory>
+                <label>Offering and Managing my ride</label>
+                <name>BBC_OfferingAndManagingMyRide</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Search</label>
+                    <name>BBC_Search</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>How booking works</label>
+                    <name>BBC_HowBookingWorks</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>All &amp; cross-border rides</label>
+                    <name>BBC_M_AllCrossBorderRides</name>
+                </dataCategory>
+                <label>Making a booking</label>
+                <name>BBC_MakingABooking</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Disagreements</label>
+                    <name>BBC_CMC_Disagreements</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Goodwill gestures</label>
+                    <name>BBC_CMC_GoodwillGestures</name>
+                </dataCategory>
+                <label>Cancelling or making a claim</label>
+                <name>BBC_CancellingOrMakingAClaim</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>PSGRs: onboard and online countries</label>
+                    <name>BBC_MPR_PSGRsOnboardAndOnlineCountries</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>DRVRs: online countries (Pay-out)</label>
+                    <name>BBC_MPR_DRVRsOnlineCountriesPayOut</name>
+                </dataCategory>
+                <label>Money, Payments &amp; Refunds</label>
+                <name>BBC_MoneyPaymentsRefunds</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Safety</label>
+                    <name>BBC_TS_Safety</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>TRUST &amp; SAFETY MODERATION GUIDELINES</label>
+                    <name>BBC_TS_TRUSTSAFETYMODERATIONGUIDELINES</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Tools</label>
+                    <name>BBC_TS_Tools</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Incident / PR risk</label>
+                    <name>BBC_TS_IncidentPRRisk</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Behavior Forms</label>
+                    <name>BBC_TS_BehaviorForms</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Police Requests</label>
+                    <name>BBC_TS_PoliceRequests</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Call to Care</label>
+                    <name>BBC_TS_CallToCare</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Business</label>
+                    <name>BBC_TS_Business</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Fraud</label>
+                    <name>BBC_TS_Fraud</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Flags</label>
+                    <name>BBC_TS_Flags</name>
+                </dataCategory>
+                <label>Trust &amp; Safety</label>
+                <name>BBC_TrustSafety</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Bugs / Troubleshooting</label>
+                    <name>BBC_T_BugsTroubleshooting</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Apps</label>
+                    <name>BBC_T_Apps</name>
+                </dataCategory>
+                <label>Technical</label>
+                <name>BBC_Technical</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Campaigns</label>
+                    <name>BBC_ET_Campaigns</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Social Media &amp; Store moderation</label>
+                    <name>BBC_ET_SocialMediaStoreModeration</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Data compliance (GDPR)</label>
+                    <name>BBC_ET_DataComplianceGDPR</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>CRT Content</label>
+                    <name>BBC_ET_CRTContent</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Energy Savings Certificate (FR Only)</label>
+                    <name>BBC_ET_EnergySavingsCertificateFROnly</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Insurance (L2 AXA, L3 L&apos;olivier)</label>
+                    <name>BBC_ET_InsuranceL2AXAL3LOlivier</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlaBlaHelp</label>
+                    <name>BBC_ET_BlaBlaHelp</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Quality Assurance</label>
+                    <name>BBC_ET_QualityAssurance</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Video Training</label>
+                    <name>BBC_ET_VideoTraining</name>
+                </dataCategory>
+                <label>Expert topics</label>
+                <name>BBC_ExpertTopics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Product updates &amp; tests</label>
+                <name>H_ProductUpdatesTests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Our Team</label>
+                <name>H_OurTeam</name>
+            </dataCategory>
+            <label>BlaBlaCar</label>
+            <name>BlaBlaCar</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Latest product updates</label>
+                <name>PMB_LatestProductUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recently updated articles</label>
+                <name>PMB_RecentlyUpdatedArticles</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Introduction</label>
+                    <name>PMB_GIT_Introduction</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>GillBus</label>
+                    <name>PMB_GIT_GillBus</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Zendesk bus custom apps</label>
+                    <name>PMB_GIT_ZendeskBusCustomApps</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Drive</label>
+                    <name>PMB_GIT_Drive</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Payment tools</label>
+                    <name>PMB_GIT_PaymentTools</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>PMP related info in BackOffice</label>
+                    <name>PMB_GIT_PMPRelatedInfoInBackOffice</name>
+                </dataCategory>
+                <label>General info &amp; tools</label>
+                <name>PMB_GeneralInfoTools</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Routes and buses</label>
+                    <name>PMB_GQ_RoutesAndBuses</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Luggage, parcels and animals</label>
+                    <name>PMB_GQ_LuggageParcelsAndAnimals</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Boarding a bus</label>
+                    <name>PMB_GQ_BoardingBus</name>
+                </dataCategory>
+                <label>General questions</label>
+                <name>PMB_GeneralQuestions</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Search and booking flow</label>
+                    <name>PMB_BP_SearchAndBookingFlow</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Payment flow</label>
+                    <name>PMB_BP_PaymentFlow</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Travel documents and confirmation</label>
+                    <name>PMB_BP_TravelDocumentsAndConfirmation</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Insurance</label>
+                    <name>PMB_BP_Insurance</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Promotions and discounts</label>
+                    <name>PMB_BP_PromotionsAndDiscounts</name>
+                </dataCategory>
+                <label>Booking and payment</label>
+                <name>PMB_BookingAndPayment</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Cancellation flow</label>
+                    <name>PMB_CB_CancellationFlow</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Cancellation and refund issues</label>
+                    <name>PMB_CB_CancellationAndRefundIssues</name>
+                </dataCategory>
+                <label>Cancelling a booking</label>
+                <name>PMB_CancellingABooking</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Refund applications in Zendesk</label>
+                    <name>PMB_PRA_RefundApplicationsInZendesk</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Refund applications in Drive</label>
+                    <name>PMB_PRA_RefundApplicationsInDrive</name>
+                </dataCategory>
+                <label>Processing refund applications</label>
+                <name>PMB_ProcessingRefundApplications</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>General information on escalation</label>
+                    <name>PMB_EP_GeneralInformationOnEscalation</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Internal escalation</label>
+                    <name>PMB_EP_InternalEscalation</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Escalation to other teams</label>
+                    <name>PMB_EP_EscalationToOtherTeams</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Escalation to carriers</label>
+                    <name>PMB_EP_EscalationToCarriers</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Call center escalation</label>
+                    <name>PMB_EP_CallCenterEscalation</name>
+                </dataCategory>
+                <label>Escalation processes</label>
+                <name>PMB_EscalationProcesses</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Common technical issues in Zendesk</label>
+                    <name>PMB_TEOI_CommonTechnicalIssuesInZendesk</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Common technical issues in Drive</label>
+                    <name>PMB_TEOI_CommonTechnicalIssuesInDrive</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Callbacks (UA and PL only)</label>
+                    <name>PMB_TEOI_CallbacksUAandPLonly</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Notifying passengers</label>
+                    <name>PMB_TEOI_NotifyingPassengers</name>
+                </dataCategory>
+                <label>Technical errors &amp; other issues</label>
+                <name>PMB_TechnicalErrorsOtherIssues</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Fraud</label>
+                    <name>PMB_TS_Fraud</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Incident</label>
+                    <name>PMB_TS_Incident</name>
+                </dataCategory>
+                <label>Trust &amp; Safety</label>
+                <name>PMB_TrustSafetyMP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Distribusion WE</label>
+                <name>PMB_DistribusionWE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Expert Topics</label>
+                <name>PMB_ExpertTopics</name>
+            </dataCategory>
+            <label>Pro Marketplace Bus</label>
+            <name>ProMarketplaceBus</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Latest product updates</label>
+                <name>BBCD_LatestProductUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recently updated articles</label>
+                <name>BBCD_RecentlyUpdatedArticles</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Klaxit x Daily Migration</label>
+                <name>BBCD_KlaxitXDailyMigration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General</label>
+                <name>BBCD_GeneralDaily</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Customer Profile</label>
+                <name>BBCD_CustomerProfile</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Trips Validation</label>
+                <name>BBCD_TripsValidation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Booking &amp; Trip</label>
+                <name>BBCD_BookingTrip</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payments</label>
+                <name>BBCD_Payments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bug Reporting Process</label>
+                <name>BBCD_BugReportingProcess</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fraud</label>
+                <name>BBCD_Fraud</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Macros &amp; Helcenter updating</label>
+                <name>BBCD_MacrosHelcenterUpdating</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Social networks</label>
+                <name>BBCD_SocialNetworks</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Carpooling Bonus</label>
+                <name>BBCD_CarpoolingBonus</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Trust &amp; Safety</label>
+                <name>BBCD_TrustSafetyDaily</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Call Center Specifics</label>
+                <name>BBCD_CallCenterSpecificsDaily</name>
+            </dataCategory>
+            <dataCategory>
+                <label>B2B</label>
+                <name>BBCD_B2B</name>
+            </dataCategory>
+            <label>BlaBlaCar Daily</label>
+            <name>BlaBlaCarDaily</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Latest product updates</label>
+                <name>BBCT_LatestProductUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recently updated articles</label>
+                <name>BBCT_RecentlyUpdatedArticles</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General information</label>
+                <name>BBCT_GeneralInformation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tools</label>
+                <name>BBCT_Tools</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Booking &amp; aftersales</label>
+                <name>BBCT_BookingAftersales</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Iryo specifics</label>
+                <name>BBCT_IryoSpecifics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Technical issues</label>
+                <name>BBCT_TechnicalIssues</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Trust &amp; Safety</label>
+                <name>BBCT_TrustSafety</name>
+            </dataCategory>
+            <label>BlaBlaCar Train</label>
+            <name>BlaBlaCarTrain</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Product updates &amp; tests</label>
+                <name>H_ProductUpdatesTests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ongoing bugs</label>
+                <name>H_OngoingBugs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Who to contact</label>
+                <name>h_WhoToContact</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Glossary</label>
+                <name>H_Glossary</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Slack quick guide</label>
+                <name>H_SlackQuickGuide</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BlaBlaShare</label>
+                <name>H_BlaBlaShare</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Our Team</label>
+                <name>H_OurTeam</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Contact us</label>
+                <name>H_ContactUs</name>
+            </dataCategory>
+            <label>Home</label>
+            <name>Home</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Basics and updates</label>
+                <name>OBI_BasicsAndUpdates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Contacts</label>
+                <name>OBI_Contacts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Processes</label>
+                <name>OBI_Processes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pax communication</label>
+                <name>OBI_PaxCommunication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>RTTS: Alfred/Samsara</label>
+                <name>OBI_RTTSAlfredSamsara</name>
+            </dataCategory>
+            <dataCategory>
+                <label>S3 Backoffice</label>
+                <name>OBI_S3Backoffice</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Channel crossing</label>
+                <name>OBI_ChannelCrossing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Incident reports / Zendesk</label>
+                <name>OBI_IncidentReportsZendesk</name>
+            </dataCategory>
+            <dataCategory>
+                <label>S3 Portal</label>
+                <name>OBI_S3Portal</name>
+            </dataCategory>
+            <label>OB Incident</label>
+            <name>OBIncident</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Internal</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
+    </objectUsage>
+</DataCategoryGroup>
